@@ -101,6 +101,7 @@ text-align: center;
     justify-content: center;
 }
 .section1-content{
+    width: 100%;
     display: flex;
     justify-content: space-between;   
     align-items:center;
@@ -109,6 +110,7 @@ text-align: center;
 .section1-left{
     width: 614px;
     font-family: 'Roboto';
+    margin-left: 69px;
 
     font-style: normal;
     font-weight: 400;
@@ -127,6 +129,7 @@ text-align: center;
 .section1-right img{
     width: 300.25px;
     height: 274px;
+    margin-right: 164px;
 
     background: #F1F1F1;
 }
@@ -222,7 +225,7 @@ footer{
 form {
     display: flex;
     justify-content: center;
-    flex-flow: column wrap;
+    flex-direction: column;
     align-items: center;
 }
 #name{
@@ -234,9 +237,7 @@ form {
     width: 439px;
     height: 88px;
     margin-bottom: 17px;
-
 }
-
 .footer-content h2{
     font-family: 'Roboto';
     font-style: normal;
