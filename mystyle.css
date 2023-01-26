@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 96px;
+    background: #EAEAEA;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.nav-left{
+    position: absolute;
+    width: 111px;
+    height: 68px;
+    left: 55px;
+    top: 17px;
+
+    background: #FFFFFF;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 65px;
+    gap: 24px;
+
+}
+li{
+    display: flex;
+    width: 111px;
+    height: 68px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 292px;
+    left: 0px;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+
+    color: #000000;
+    background: #C4C4C4;
+    border-bottom: 9px #FFFFFF
+
+}
+
+header h1{
+    font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+}
+.section1 {
+    position: absolute;
+    width: 100%;
+    height: 412px;
+    left: 0px;
+    top: 397px;
+
+    background: #C4C4C4;
+    display:flex;
+    justify-content: center;
+}
+.section1-content{
+    display: flex;
+    justify-content: space-between;   
+    align-items:center;
+    gap: 293.16px;
+}
+.section1-left{
+    width: 614px;
+    font-family: 'Roboto';
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+.section1-left button{
+    width: 157px;
+    height: 56px;
+
+    background: #FFFFFF;
+}
+.section1-right img{
+    width: 300.25px;
+    height: 274px;
+
+    background: #F1F1F1;
+}
+.section2{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 818px;
+
+    display: flex;
+    justify-content: center;
+    
+
+    background: #C4C4C4;
+    border-bottom: 9px #FFFFFF
+}
+.section2-content{
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section2 h2{
+
+    position: relative;
+    width: 485px;
+    height: 42px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+
+
+    color: #000000;
+}
+
+.section2-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+.grid-item{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background: #EFEFEF;
+    width: 168px;
+    height: 138.46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.grid-item p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+#grid-stack{
+    display: flex;
+    justify-content: center;
+    width: 72px;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+footer{
+    position:absolute;
+    width: 100%;
+    height: 445px;
+    top: 1278px;
+    background: #C4C4C4;
+    display:flex;
+    justify-content: center;
+
+
+}
+.footer-content{
+    width: 439px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+#name{
+    width: 439px;
+    height: 33px;
+    margin-bottom: 17px;
+}
+#msg{
+    width: 439px;
+    height: 88px;
+    margin-bottom: 17px;
+
+}
+
+.footer-content h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #000000;
+}
+form button {
+    width: 132px;
+    height: 51px;
+}
+.buttom-stuff{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.buttom-stuff img{
+    width: 50px;
+    height:50px;
+}
