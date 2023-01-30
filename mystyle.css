@@ -73,15 +73,17 @@ li{
 
     display: flex;
     align-items: center;
-
     color: #000000;
+
+    transition: all 1s;
 }
 
 li:hover, .nav-left:hover, .section1-left button:hover, .grid-item:hover, form button:hover{
     text-decoration: underline;
-    background-color: #FDE4CF;
+    background-color: #FFCFD2;
     font-size: 1.5em;
-
+    transform: translateY(-10px);
+    color: blueviolet;
 
 }
 li:active, .nav-left:active, .section1-left button:active, .grid-item:active, form button:active{
@@ -244,6 +246,8 @@ form button {
     width: 132px;
     height: 51px;
     background-color: #F1C0E8;
+    font-family: 'Dancing Script', cursive;
+
 }
 .buttom-stuff{
     display: flex;
