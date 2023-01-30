@@ -2,11 +2,40 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
 }
+header h1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    text-transform: uppercase;
+    text-shadow: 5px 5px 4px #A3C4F3;
+
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+h2{
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
 .navbar{
     width: 100%;
     height: 96px;
-    background: #EAEAEA;
+    background-color: #FBF8CC;
     display: flex;
     justify-content: flex-end;
 
@@ -18,17 +47,10 @@ body{
     left: 55px;
     top: 17px;
 
-    background: #FFFFFF;
+    background: #F1C0E8;
     display:flex;
     align-items: center;
     justify-content: center;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
 
     color: #000000;
 }
@@ -45,22 +67,33 @@ li{
     display: flex;
     width: 111px;
     height: 68px;
-    background: #FFFFFF;
+    background: #F1C0E8;
     justify-content: center;
     align-items: center;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
     display: flex;
     align-items: center;
-    text-align: center;
 
     color: #000000;
+}
+
+li:hover, .nav-left:hover, .section1-left button:hover, .grid-item:hover, form button:hover{
+    text-decoration: underline;
+    background-color: #FDE4CF;
+    font-size: 1.5em;
+
 
 }
+li:active, .nav-left:active, .section1-left button:active, .grid-item:active, form button:active{
+    background-color: #CFBAF0;
+    font-size: 1.2em;
+}
+input:focus{
+    background-color: #8EECF5;
+    font-size: 1.5em;
+}
+
+
 header{
     position: absolute;
     width: 100%;
@@ -70,23 +103,11 @@ header{
     display:flex;
     justify-content:center;
     align-items: center;
-    
     text-align: center;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
 
     color: #000000;
-    background: #C4C4C4;
+    background-color: #98F5E1;
     border-bottom: 9px #FFFFFF
-
-}
-
-header h1{
-    font-weight: 400;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
 
 }
 .section1 {
@@ -96,7 +117,7 @@ text-align: center;
     left: 0px;
     top: 397px;
 
-    background: #C4C4C4;
+    background-color: #FBF8CC;
     display:flex;
     justify-content: center;
 }
@@ -109,13 +130,7 @@ text-align: center;
 }
 .section1-left{
     width: 614px;
-    font-family: 'Roboto';
     margin-left: 69px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
     text-align: center;
 
     color: #000000;
@@ -123,8 +138,8 @@ text-align: center;
 .section1-left button{
     width: 157px;
     height: 56px;
-
-    background: #FFFFFF;
+    font-family: "Dancing Script", cursive;
+    background-color: #F1C0E8;
 }
 .section1-right img{
     width: 300.25px;
@@ -143,8 +158,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     
-
-    background: #C4C4C4;
+    background: #B9FBC0;
     border-bottom: 9px #FFFFFF
 }
 .section2-content{
@@ -157,20 +171,10 @@ text-align: center;
 }
 
 .section2 h2{
-
     position: relative;
     width: 485px;
     height: 42px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    font-size: 36px;
-    line-height: 42px;
-
-
-    color: #000000;
 }
 
 .section2-grid{
@@ -181,7 +185,7 @@ text-align: center;
 }
 .grid-item{
     border: 1px solid rgba(0, 0, 0, 0.8);
-    background: #EFEFEF;
+    background-color: #F1C0E8;
     width: 168px;
     height: 138.46px;
     display: flex;
@@ -190,12 +194,7 @@ text-align: center;
     flex-wrap: wrap;
 
 }
-.grid-item p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
-}
+
 #grid-stack{
     display: flex;
     justify-content: center;
@@ -209,9 +208,10 @@ footer{
     width: 100%;
     height: 445px;
     top: 1278px;
-    background: #C4C4C4;
+    background-color: #A3C4F3;
     display:flex;
     justify-content: center;
+    background-color: #A3C4F3;
 
 
 }
@@ -221,6 +221,7 @@ footer{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+
 }
 form {
     display: flex;
@@ -238,19 +239,11 @@ form {
     height: 88px;
     margin-bottom: 17px;
 }
-.footer-content h2{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    
-    color: #000000;
-}
+
 form button {
     width: 132px;
     height: 51px;
+    background-color: #F1C0E8;
 }
 .buttom-stuff{
     display: flex;
